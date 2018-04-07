@@ -1,6 +1,6 @@
 You need create the cache directory structure:
 
-`mkdir -p cache/{deb,raw,qry,tmpl}`
+`mkdir -p cache/{deb,raw,qry,templ}`
 
 First you need place the ssl keys in right directory. If you don't have then generate with:
 
