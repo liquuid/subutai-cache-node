@@ -24,7 +24,6 @@ RUN     mkdir -p /app/cache/raw
 RUN     mkdir -p /app/cache/templ 
 
 STOPSIGNAL SIGRTMIN+3
-#CMD ["/usr/sbin/nginx"] 
-CMD ["/bin/bash"] 
+CMD ["/usr/sbin/nginx"] 
 
 # vim: ts=4 et nowrap autoindent
